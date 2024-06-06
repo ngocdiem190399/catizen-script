@@ -9,7 +9,9 @@ try {
         Laya.timer.loop(5e3, this, this.checkSum)),
         this.m_img_StopAuto.visible = !P.cat.isAuto
     }
-    M.prototype.onClickAuto = onClickAuto
+    M.prototype.onClickAuto = onClickAuto;
+    const clickAutomation = onClickAuto();
+    clickAutomation;
 } catch (e) {
     throw e;
 }
