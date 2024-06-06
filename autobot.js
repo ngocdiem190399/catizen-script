@@ -1,6 +1,6 @@
 try {
     function onClickAuto() {
-        u(`AutoBot ${P.cat.isAuto ? 'deactivated' : 'activated'}!\n\nAutoBot by @Tom00702`)
+        u(`AutoBot ${P.cat.isAuto ? 'deactivated' : 'activated'} by Vinh Duyet`)
         P.cat.isAuto = !P.cat.isAuto,
         P.cat.isAuto ? (this.ani8.play(0, !0),
         Laya.timer.loop(500, this, this.checkAuto),
