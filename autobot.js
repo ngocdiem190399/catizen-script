@@ -10,8 +10,7 @@ try {
         this.m_img_StopAuto.visible = !P.cat.isAuto
     }
     M.prototype.onClickAuto = onClickAuto;
-    const clickAutomation = onClickAuto();
-    clickAutomation;
 } catch (e) {
     throw e;
 }
+onClickAuto();
