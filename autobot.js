@@ -1,8 +1,3 @@
-const consoleRed = 'font-weight: bold; color: red;';
-const consoleGreen = 'font-weight: bold; color: green;';
-const consolePrefix = '%c [AutoBot] ';
-
-console.clear()
 try {
     function onClickAuto() {
         u(`AutoBot ${P.cat.isAuto ? 'deactivated' : 'activated'}!\n\nAutoBot by @Tom00702`)
