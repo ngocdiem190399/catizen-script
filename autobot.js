@@ -13,4 +13,3 @@ try {
 } catch (e) {
     throw e;
 }
-onClickAuto();
