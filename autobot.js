@@ -11,5 +11,5 @@ try {
     }
     M.prototype.onClickAuto = onClickAuto
 } catch (e) {
-    throw e;
+    throw e
 }
