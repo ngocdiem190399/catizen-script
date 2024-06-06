@@ -1,5 +1,4 @@
-try {
-    function onClickAuto() {
+function onClickAuto() {
         u(`AutoBot ${P.cat.isAuto ? 'OFF' : 'ON'} by Tom00702 - Vinh Duyet`)
         P.cat.isAuto = !P.cat.isAuto,
         P.cat.isAuto ? (this.ani8.play(0, !0),
@@ -10,6 +9,3 @@ try {
         this.m_img_StopAuto.visible = !P.cat.isAuto
     }
     M.prototype.onClickAuto = onClickAuto;
-} catch (e) {
-    throw e;
-}
